@@ -1,15 +1,8 @@
 #!/usr/bin/python3
-
-
-def magic_calculation(a, b):
-    """Match bytecode provided by Holberton School."""
-    from magic_calculation_102 import add, sub
-
-    if a < b:
-        c = add(a, b)
-        for i in range(4, 6):
-            c = add(c, i)
-        return (c)
-
-    else:
-        return(sub(a, b))
+if __name__ == "__main__":
+    import hidden_4
+    # Print sorted name from directory
+    for name in sorted(dir(hidden_4)):
+        # print only names that do not start with __
+        if name[:2] != '__':
+            print("{}".format(name))
