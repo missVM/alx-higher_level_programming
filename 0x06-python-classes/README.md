@@ -1,4 +1,3 @@
-EADME.md
-
-Python - Classes and Objects
+README,file
+project 0x06-python-classes
 
